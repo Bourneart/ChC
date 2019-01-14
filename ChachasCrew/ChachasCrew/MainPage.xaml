@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChachasCrew"
+             x:Class="ChachasCrew.MainPage">
+
+    <!--<StackLayout>
+        --><!-- Place new controls here --><!--
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>-->
+    <StackLayout Padding="5,5,5,5">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Строка1Колонка1"
+               Grid.Row="0" Grid.Column="0"
+               TextColor="Black"
+               BackgroundColor="Green" />
+        <Label Text="Строка1Колонка2"
+               Grid.Row="0" Grid.Column="1"
+               TextColor="Black"
+               BackgroundColor="Yellow" />
+        
+            <Button 
+                Text="Мероприятия"
+                Grid.Row="1" Grid.Column="0" />
+            <Button 
+                Text="Тусовки"
+                Grid.Row="1" Grid.Column="0" />
+            <Button 
+                Text="Тусовки участников"
+                Grid.Row="1" Grid.Column="0" />
+            <Button 
+                Text="Участники"
+                Grid.Row="1" Grid.Column="0" />
+            <Button 
+                Text="Фото/Видео"
+                Grid.Row="1" Grid.Column="0" />
+            
+        <Label Text="Строка2Колонка2"
+               Grid.Row="1" Grid.Column="1"
+               TextColor="Black"
+               BackgroundColor="Gray" />
+        <Label Text="Строка3Колонка1"
+               Grid.Row="2" Grid.Column="0"
+               TextColor="Black"
+               BackgroundColor="Purple" />
+        <Label Text="Строка3Колонка2"
+               Grid.Row="2" Grid.Column="1"
+               TextColor="Black"
+               BackgroundColor="Blue" />
+    </Grid>
+    </StackLayout>
+</ContentPage>
