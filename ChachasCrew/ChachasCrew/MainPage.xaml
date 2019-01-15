@@ -4,62 +4,67 @@
              xmlns:local="clr-namespace:ChachasCrew"
              x:Class="ChachasCrew.MainPage">
 
-    <!--<StackLayout>
-        --><!-- Place new controls here --><!--
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>-->
-    <StackLayout Padding="5,5,5,5">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+    <!-- #region Верхнее меню с аватаркой -->   
+    <StackLayout Padding="25,5,5,5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="Auto" />
-        </Grid.ColumnDefinitions>
-
-        <Label Text="Строка1Колонка1"
-               Grid.Row="0" Grid.Column="0"
-               TextColor="Black"
-               BackgroundColor="Green" />
-        <Label Text="Строка1Колонка2"
-               Grid.Row="0" Grid.Column="1"
-               TextColor="Black"
-               BackgroundColor="Yellow" />
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+                <Image WidthRequest="100" HeightRequest="100" Aspect="AspectFit" Source="avatar.png" HorizontalOptions="Start" VerticalOptions="Center" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3"/>
+                <Label Text="Артем Рахматуллин" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="5" FontSize="Large"/>
+                <Label Text="User_Nickname" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="5" FontSize="Large"/>
+                <Image WidthRequest="2" HeightRequest="2" Aspect="AspectFit" Source="settings.png" Grid.Row="2" Grid.Column="4"/>
+                <Image WidthRequest="2" HeightRequest="2" Aspect="AspectFit" Source="profile.png" Grid.Row="2" Grid.Column="5"/>
+                <Image WidthRequest="2" HeightRequest="2" Aspect="AspectFit" Source="letter.png" Grid.Row="2" Grid.Column="6"/>
+        </Grid>
+    <!--#endregion-->
         
+        <!--#region Кнопки управления -->
+        <StackLayout Padding="-20,0,0,0">
             <Button 
-                Text="Мероприятия"
-                Grid.Row="1" Grid.Column="0" />
+            Text="Мероприятия"
+            FontSize="Small"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand"/>
             <Button 
-                Text="Тусовки"
-                Grid.Row="1" Grid.Column="0" />
+            Text="Тусовки"
+            FontSize="Small"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand"/>
             <Button 
-                Text="Тусовки участников"
-                Grid.Row="1" Grid.Column="0" />
+            Text="Тусовки участников"
+            FontSize="Small"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand"/>
             <Button 
-                Text="Участники"
-                Grid.Row="1" Grid.Column="0" />
+            Text="Участники"
+            FontSize="Small"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand"/>
             <Button 
-                Text="Фото/Видео"
-                Grid.Row="1" Grid.Column="0" />
-            
-        <Label Text="Строка2Колонка2"
-               Grid.Row="1" Grid.Column="1"
-               TextColor="Black"
-               BackgroundColor="Gray" />
-        <Label Text="Строка3Колонка1"
-               Grid.Row="2" Grid.Column="0"
+            Text="Фото/Видео"
+            FontSize="Small"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand"/>
+            <!--#endregion-->
+
+            <Label Text="Строка3Колонка1"
+               Grid.Row="7" Grid.Column="0"
                TextColor="Black"
                BackgroundColor="Purple" />
-        <Label Text="Строка3Колонка2"
-               Grid.Row="2" Grid.Column="1"
+            <Label Text="Строка3Колонка2"
+               Grid.Row="7" Grid.Column="1"
                TextColor="Black"
                BackgroundColor="Blue" />
-    </Grid>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
