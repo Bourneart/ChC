@@ -28,34 +28,44 @@
         </Grid>
     <!--#endregion-->
         
-        <!--#region Кнопки управления -->
-        <StackLayout Padding="-20,0,0,0">
-            <Button 
+    <!--#region Кнопки управления -->
+    <StackLayout Padding="-20,0,0,0">
+        <Button 
             Text="Мероприятия"
-            FontSize="Small"
+            FontSize="Medium"
             CornerRadius="6"
-            HorizontalOptions="FillAndExpand"/>
-            <Button 
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Black"
+            TextColor="White"/>
+        <Button 
             Text="Тусовки"
-            FontSize="Small"
+            FontSize="Medium"
             CornerRadius="6"
-            HorizontalOptions="FillAndExpand"/>
-            <Button 
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Black"
+            TextColor="White"/>
+        <Button 
             Text="Тусовки участников"
-            FontSize="Small"
+            FontSize="Medium"
             CornerRadius="6"
-            HorizontalOptions="FillAndExpand"/>
-            <Button 
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Black"
+            TextColor="White"/>
+        <Button 
             Text="Участники"
-            FontSize="Small"
+            FontSize="Medium"
             CornerRadius="6"
-            HorizontalOptions="FillAndExpand"/>
-            <Button 
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Black"
+            TextColor="White"/>
+        <Button 
             Text="Фото/Видео"
-            FontSize="Small"
+            FontSize="Medium"
             CornerRadius="6"
-            HorizontalOptions="FillAndExpand"/>
-            <!--#endregion-->
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Black"
+            TextColor="White"/>
+    <!--#endregion-->
 
             <Label Text="Строка3Колонка1"
                Grid.Row="7" Grid.Column="0"
