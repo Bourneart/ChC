@@ -106,4 +106,3 @@ E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\System.Xml.pd
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\linksrc\ChachasCrew.dll.mdb

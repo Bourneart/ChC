@@ -65,12 +65,16 @@
             HorizontalOptions="FillAndExpand"
             BackgroundColor="Black"
             TextColor="White"/>
-    <!--#endregion-->
+        <Button 
+            Text="Чатик"
+            FontSize="Medium"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Black"
+            TextColor="White"/>
+            <!--#endregion-->
 
-            <Label Text="Строка3Колонка1"
-               Grid.Row="7" Grid.Column="0"
-               TextColor="Black"
-               BackgroundColor="Purple" />
+            
             <Label Text="Строка3Колонка2"
                Grid.Row="7" Grid.Column="1"
                TextColor="Black"
