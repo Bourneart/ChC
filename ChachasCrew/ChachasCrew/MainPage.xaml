@@ -4,81 +4,164 @@
              xmlns:local="clr-namespace:ChachasCrew"
              x:Class="ChachasCrew.MainPage">
 
-    <!-- #region Верхнее меню с аватаркой -->   
-    <StackLayout Padding="25,5,5,5">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
+    <ScrollView>
+ <!--#region Верхнее меню --> 
+<StackLayout Padding="25,5,5,5">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
-                <Image WidthRequest="100" HeightRequest="100" Aspect="AspectFit" Source="avatar.png" HorizontalOptions="Start" VerticalOptions="Center" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3"/>
-                <Label Text="Артем Рахматуллин" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="5" FontSize="Large"/>
-                <Label Text="User_Nickname" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="5" FontSize="Large"/>
-                <Image WidthRequest="2" HeightRequest="2" Aspect="AspectFit" Source="settings.png" Grid.Row="2" Grid.Column="4"/>
-                <Image WidthRequest="2" HeightRequest="2" Aspect="AspectFit" Source="profile.png" Grid.Row="2" Grid.Column="5"/>
-                <Image WidthRequest="2" HeightRequest="2" Aspect="AspectFit" Source="letter.png" Grid.Row="2" Grid.Column="6"/>
-        </Grid>
-    <!--#endregion-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+    <Image 
+        WidthRequest="100" 
+        HeightRequest="100" 
+        Aspect="AspectFit" 
+        Source="avatar.png" 
+        HorizontalOptions="Start" 
+        VerticalOptions="Center" 
+        Grid.Row="0" 
+        Grid.Column="0" 
+        Grid.RowSpan="3"/>
+    <Label Text="Артем Рахматуллин" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center" 
+        Grid.Row="0" 
+        Grid.Column="2" 
+        Grid.ColumnSpan="5" 
+        FontSize="Large" 
+        FontAttributes="Bold"/>
+    <Label Text="User_Nickname" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center" 
+        Grid.Row="1" 
+        Grid.Column="2" 
+        Grid.ColumnSpan="5" 
+        FontSize="Large" 
+        FontAttributes="Italic"/>
+    <Image WidthRequest="2" 
+        HeightRequest="2" 
+        Aspect="AspectFit" 
+        Source="settings.png" 
+        Grid.Row="2" 
+        Grid.Column="4"/>
+    <Image WidthRequest="2" 
+        HeightRequest="2" 
+        Aspect="AspectFit" 
+        Source="profile.png" 
+        Grid.Row="2" 
+        Grid.Column="5"/>
+    <Image WidthRequest="2" 
+        HeightRequest="2" 
+        Aspect="AspectFit" 
+        Source="letter.png" 
+        Grid.Row="2" 
+        Grid.Column="6"/>
+    </Grid>
+ <!--#endregion -->
         
-    <!--#region Кнопки управления -->
-    <StackLayout Padding="-20,0,0,0">
-        <Button 
-            Text="Мероприятия"
-            FontSize="Medium"
-            CornerRadius="6"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Black"
-            TextColor="White"/>
-        <Button 
-            Text="Тусовки"
-            FontSize="Medium"
-            CornerRadius="6"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Black"
-            TextColor="White"/>
-        <Button 
-            Text="Тусовки участников"
-            FontSize="Medium"
-            CornerRadius="6"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Black"
-            TextColor="White"/>
-        <Button 
-            Text="Участники"
-            FontSize="Medium"
-            CornerRadius="6"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Black"
-            TextColor="White"/>
-        <Button 
-            Text="Фото/Видео"
-            FontSize="Medium"
-            CornerRadius="6"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Black"
-            TextColor="White"/>
-        <Button 
-            Text="Чатик"
-            FontSize="Medium"
-            CornerRadius="6"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Black"
-            TextColor="White"/>
-            <!--#endregion-->
+<!--#region Кнопки управления -->
+<StackLayout Padding="-20,0,0,0">
+    <Button
+        x:Name="btnIvents"
+        Text="Мероприятия"
+        FontSize="Medium"
+        CornerRadius="6"
+        HorizontalOptions="FillAndExpand"
+        BackgroundColor="Black"
+        TextColor="White"/>
+    <Button
+        x:Name="btnParty"
+        Text="Тусовки"
+        FontSize="Medium"
+        CornerRadius="6"
+        HorizontalOptions="FillAndExpand"
+        BackgroundColor="Black"
+        TextColor="White"/>
+    <Button
+        x:Name="btnSuggestParty"
+        Text="Предложить тусовку"
+        FontSize="Medium"
+        CornerRadius="6"
+        HorizontalOptions="FillAndExpand"
+        BackgroundColor="Black"
+        TextColor="White"/>
+    <Button
+        x:Name="btnMembers"
+        Text="Участники"
+        FontSize="Medium"
+        CornerRadius="6"
+        HorizontalOptions="FillAndExpand"
+        BackgroundColor="Black"
+        TextColor="White"
+        Clicked="ToMembersPage"/>
+    <Button
+        x:Name="btnFotoVideo"
+        Text="Фото/Видео"
+        FontSize="Medium"
+        CornerRadius="6"
+        HorizontalOptions="FillAndExpand"
+        BackgroundColor="Black"
+        TextColor="White"/>
+    <Button
+        x:Name="btnChat"
+        Text="Чатик"
+        FontSize="Medium"
+        CornerRadius="6"
+        HorizontalOptions="FillAndExpand"
+        BackgroundColor="Black"
+        TextColor="White"/>
+<!--#endregion-->
 
-            
-            <Label Text="Строка3Колонка2"
-               Grid.Row="7" Grid.Column="1"
-               TextColor="Black"
-               BackgroundColor="Blue" />
+<!--#region Социальные сети в футере -->
+<StackLayout Padding="-90,0,0,0" Spacing="12">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+    <Label Text="Мы в Соцсетях!" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center" 
+        Grid.Row="0" 
+        Grid.Column="1" 
+        Grid.ColumnSpan="3" 
+        FontSize="Large"/>
+    <Image WidthRequest="20" 
+        HeightRequest="20" 
+        Aspect="AspectFit" 
+        Source="insta.png" 
+        Grid.Row="1" 
+        Grid.Column="1" />
+    <Image WidthRequest="20" 
+         HeightRequest="20" 
+         Aspect="AspectFit" 
+         Source="wkont.png" 
+         Grid.Row="1" 
+         Grid.Column="2"/>
+    <Image WidthRequest="20" 
+         HeightRequest="20"
+         Aspect="AspectFit" 
+         Source="faceb.png" 
+         Grid.Row="1" 
+         Grid.Column="3"/>
+    </Grid>
+</StackLayout>
+<!--#endregion -->
+    
+            </StackLayout>
         </StackLayout>
-    </StackLayout>
+    </ScrollView>
 </ContentPage>

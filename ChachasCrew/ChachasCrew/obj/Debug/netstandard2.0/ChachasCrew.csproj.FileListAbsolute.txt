@@ -10,3 +10,4 @@ E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.AssemblyInfo
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\XamlC.stamp
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.dll
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.pdb
+E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\MembersPage.xaml.g.cs
