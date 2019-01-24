@@ -4,10 +4,10 @@ E:\ChC\ChachasCrew\ChachasCrew\bin\Debug\netstandard2.0\ChachasCrew.pdb
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.csprojAssemblyReference.cache
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\MembersPage.xaml.g.cs
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.csproj.CoreCompileInputs.cache
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.AssemblyInfoInputs.cache
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.AssemblyInfo.cs
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\XamlC.stamp
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.dll
 E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\ChachasCrew.pdb
-E:\ChC\ChachasCrew\ChachasCrew\obj\Debug\netstandard2.0\MembersPage.xaml.g.cs

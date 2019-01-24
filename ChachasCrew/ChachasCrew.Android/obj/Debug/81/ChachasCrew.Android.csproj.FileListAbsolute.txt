@@ -35,6 +35,9 @@ E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\avatar.png
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\letter.png
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\profile.png
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\settings.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\faceb.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\insta.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\wkont.png
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\R.cs.flag
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\R.txt
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\uploadflags.txt
@@ -106,9 +109,10 @@ E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\System.Xml.pd
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\faceb.png
-E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\insta.png
-E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\wkont.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\ilyas.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\liza.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\dasha.png
+E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\res\drawable\dimal.png
 E:\ChC\ChachasCrew\ChachasCrew\bin\Debug\netstandard2.0\ChachasCrew.dll
 E:\ChC\ChachasCrew\ChachasCrew.Android\bin\Debug\ChachasCrew.dll.mdb
 E:\ChC\ChachasCrew\ChachasCrew.Android\obj\Debug\81\linksrc\ChachasCrew.dll.mdb

@@ -37,7 +37,8 @@
         Grid.Column="2" 
         Grid.ColumnSpan="5" 
         FontSize="Large" 
-        FontAttributes="Bold"/>
+        FontAttributes="Bold"
+        TextColor="Black"/>
     <Label Text="User_Nickname" 
         HorizontalOptions="Center" 
         VerticalOptions="Center" 
